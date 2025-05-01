@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Música",
+      "subtitle": "",
+      "category": "music",
+      "file": "musica"
+    },
+    {
+      "title": "Juegos",
+      "subtitle": "",
+      "category": "games",
+      "file": "juegos"
+    },
+    {
+      "title": "Otros",
+      "subtitle": "",
+      "category": "others",
+      "file": "otros"
+    }
+  ]
+}

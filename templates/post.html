@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        {{template "_head.html" .}}
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        <div class="container">
+            {{template "_nav.html"}}
+
+            <div class="bg-black">
+                <div class="row-fluid">
+                    <h1>{{.Title}}<br /><small>{{.Date}}</small></h1>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12 font-size-18px">{{.Content}}</div>
+                </div>
+            </div>
+            {{template "_footer.html"}}
+        </div>
+        {{template "_scripts.html"}}
+        <script type="text/javascript">
+            document.getElementById("{{.Category}}").classList.add("active");
+        </script>
+    </body>
+</html>
